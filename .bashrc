@@ -14,3 +14,5 @@ fi
 
 export NVM_DIR="/home/shekhargh/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+xset -r rate 220 160

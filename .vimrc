@@ -9,7 +9,8 @@ let NERDTreeWinSize = 30
 let NERDTreeQuitOnOpen = 1
 
 colorscheme beekai
-
+"colorscheme primary
+"set background=dark
 no <down> <Nop>  "n stands for normal mode
 no  <left> <Nop>
 no <right> <Nop>
