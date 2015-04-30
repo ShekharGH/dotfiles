@@ -32,3 +32,4 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 "//:echo "KAM KAR MC"
 
 ":execute 'NERDTreeToggle '
+let g:user_emmet_leader_key='<C-Z>'
