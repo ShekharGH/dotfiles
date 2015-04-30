@@ -1,0 +1,4 @@
+#!/bin/bash
+# Exiting the terminal
+kill -9 $PPID
+exit 1
