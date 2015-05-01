@@ -7,6 +7,7 @@ map <silent> <C-n> :execute 'NERDTreeToggle '<CR>
 let NERDTreeWinPos = "left"
 let NERDTreeWinSize = 30
 let NERDTreeQuitOnOpen = 1
+let NERDTreeShowBookmarks=1
 
 colorscheme beekai
 "colorscheme primary

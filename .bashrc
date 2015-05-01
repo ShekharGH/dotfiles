@@ -17,3 +17,6 @@ export NVM_DIR="/home/shekhargh/.nvm"
 
 xset r rate 220 160
 clear
+export PATH=$PATH:~/.bin
+alias :q='exit'
+alias c='clear'
