@@ -1,3 +1,4 @@
+
 execute pathogen#infect()
 set number
 
@@ -28,9 +29,11 @@ imap <leader>" ""<ESC>i
 imap <leader>( ()<ESC>i
 imap <leader>{ {}<ESC>i
 imap <leader>[ []<ESC>i
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-:helptags ~/.vim/bundle/ctrlp.vim/doc
+"set runtimepath^=~/.vim/bundle/ctrlp.vim
+":helptags ~/.vim/bundle/ctrlp.vim/doc
 "//:echo "KAM KAR MC"
 
 ":execute 'NERDTreeToggle '
 let g:user_emmet_leader_key='<C-Z>'
+set autoindent
+set smartindent
