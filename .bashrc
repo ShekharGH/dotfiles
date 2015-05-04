@@ -20,3 +20,4 @@ clear
 export PATH=$PATH:~/.bin
 alias :q='exit'
 alias c='clear'
+alias l="ls"
