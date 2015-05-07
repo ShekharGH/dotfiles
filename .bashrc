@@ -21,4 +21,5 @@ export PATH=$PATH:~/.bin
 alias :q='exit'
 alias c='clear'
 alias l="ls"
-cd ~/Work/Notes\ and\ other\ stuff/
+#cd ~/Work/Notes\ and\ other\ stuff/
+

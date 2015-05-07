@@ -1,0 +1,20 @@
+#!/bin/bash
+#go to websitr Directory
+#cd "~/Work/Notes\ and\ other\ stuff/GithubPage/ShekharGH.github.io/"
+#echo "Plain cd "
+#cd
+#pwd
+#echo "address with quotes"
+#cd "~/Work/Notes\ and\ other\ stuff/GithubPage/ShekharGH.github.io"
+#pwd
+#echo "address without quotes"
+#cd Work/Notes\ and\ other\ stuff/GithubPage/ShekharGH.github.io/
+#pwd
+cd ~/Work
+pwd
+cd Notes*
+pwd
+cd Git*
+pwd
+cd Shekhar*
+pwd

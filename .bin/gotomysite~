@@ -1,0 +1,14 @@
+#!/bin/bash
+#go to websitr Directory
+#cd "~/Work/Notes\ and\ other\ stuff/GithubPage/ShekharGH.github.io/"
+cd ~/Work
+echo "work"
+cd Notes\ and\ other\ stuff/GithubPage/ShekharGH.github.io/
+echo "notes>github>shekhargh"
+cd ~/Work/Notes\ and\ other\ stuff/
+echo "Work>note"
+cd GithubPage
+echo "Githubpages"
+cd Shekhar*
+echo "Shekhar*"
+
