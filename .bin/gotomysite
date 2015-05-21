@@ -18,3 +18,7 @@ cd Git*
 pwd
 cd Shekhar*
 pwd
+function gotomydir {
+	cd
+	cd "/home/shekhargh/Work/Notes and other stuff/"
+}

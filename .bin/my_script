@@ -1,0 +1,8 @@
+#!/bin/bash
+cat << _EOF_
+<html>
+	<title>
+	i yum awesome 
+	</title>
+ </html>
+_EOF_

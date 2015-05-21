@@ -22,4 +22,10 @@ alias :q='exit'
 alias c='clear'
 alias l="ls"
 #cd ~/Work/Notes\ and\ other\ stuff/
-
+function gotomysite {
+	cd
+	cd "/home/shekhargh/Work/Notes and other stuff/GithubPage/ShekharGH.github.io"
+}
+function gotoJavascript {
+	cd "/home/shekhargh/Work/Notes and other stuff/LearnJavascript"
+}
