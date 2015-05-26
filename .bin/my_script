@@ -1,8 +1,20 @@
 #!/bin/bash
+
+title="i yum awesome "
+
+
+
 cat << _EOF_
 <html>
+	<head>
 	<title>
-	i yum awesome 
+	$title $HOSTNAME
 	</title>
+	</head>
+	<body>
+	<h1>
+	$title
+	</h1>
+	</body>
  </html>
 _EOF_
