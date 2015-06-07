@@ -29,15 +29,15 @@ work="/home/shekhargh/Work";
 
 function gotomysite {
 	cd
-	cd $mysite #"/home/shekhargh/Work/Notes and other stuff/GithubPage/ShekharGH.github.io"
+	cd "$mysite" #"/home/shekhargh/Work/Notes and other stuff/GithubPage/ShekharGH.github.io"
 }
 function gotojavascript {
-	cd $javascripttut;
+	cd "$javascripttut";
 }
 function gotonotes {
 	cd "$mynotes";
 	}
 function gotowork {
-	cd $work
+	cd "$work"
 	}
 	
