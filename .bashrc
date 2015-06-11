@@ -26,6 +26,10 @@ mysite="/home/shekhargh/Work/Notes and other stuff/GithubPage/ShekharGH.github.i
 javascripttut="/home/shekhargh/Work/Notes and other stuff/LearnJavascript";
 mynotes="/home/shekhargh/Work/Notes and other stuff";
 work="/home/shekhargh/Work";
+myactualnotes="/home/shekhargh/Work/Notes";
+
+function gotomynotes {
+	cd "$myactualnotes"
 
 function gotomysite {
 	cd
