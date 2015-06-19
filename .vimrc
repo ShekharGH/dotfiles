@@ -37,3 +37,6 @@ imap <leader>[ []<ESC>i
 let g:user_emmet_leader_key='<C-Z>'
 set autoindent
 set smartindent
+nnoremap ; :
+nnoremap : ;
+

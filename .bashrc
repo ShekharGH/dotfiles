@@ -15,7 +15,7 @@ fi
 export NVM_DIR="/home/shekhargh/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-xset r rate 220 160
+xset r rate 160 220
 clear
 export PATH=$PATH:~/.bin
 alias :q='exit'
@@ -29,19 +29,21 @@ work="/home/shekhargh/Work";
 myactualnotes="/home/shekhargh/Work/Notes";
 
 function gotomynotes {
-	cd "$myactualnotes"
-
+	cd
+	cd "$myactualnotes";
+	}
 function gotomysite {
 	cd
 	cd "$mysite" #"/home/shekhargh/Work/Notes and other stuff/GithubPage/ShekharGH.github.io"
-}
+	}
 function gotojavascript {
 	cd "$javascripttut";
-}
+	}
 function gotonotes {
 	cd "$mynotes";
 	}
 function gotowork {
-	cd "$work"
+	cd "$work";
 	}
 	
+
