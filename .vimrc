@@ -40,3 +40,4 @@ set smartindent
 nnoremap ; :
 nnoremap : ;
 
+nnoremap , $
