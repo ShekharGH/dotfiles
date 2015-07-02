@@ -24,6 +24,9 @@ alias l="ls"
 alias s='git status'
 alias la='ls -a'
 alias a='git add -A'
+alias d='git diff'
+alias commit='git push origin master'
+
 
 #cd ~/Work/Notes\ and\ other\ stuff/
 mysite="/home/shekhargh/Work/Notes and other stuff/GithubPage/ShekharGH.github.io";
