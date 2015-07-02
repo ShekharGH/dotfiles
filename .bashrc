@@ -21,6 +21,10 @@ export PATH=$PATH:~/.bin
 alias :q='exit'
 alias c='clear'
 alias l="ls"
+alias s='git status'
+alias la='ls -a'
+alias a='git add -A'
+
 #cd ~/Work/Notes\ and\ other\ stuff/
 mysite="/home/shekhargh/Work/Notes and other stuff/GithubPage/ShekharGH.github.io";
 javascripttut="/home/shekhargh/Work/Notes and other stuff/LearnJavascript";
@@ -45,5 +49,29 @@ function gotonotes {
 function gotowork {
 	cd "$work";
 	}
-	
+function today {
+	echo "Abhi time hai :: ";
+	date +"%H:%M:%S 	%a   %d%b  20%y";
+	}
+#date +"%H_%M_%S_%a_%d%b_%y";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

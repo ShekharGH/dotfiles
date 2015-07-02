@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+title="System INformation ::$HOSTNAME "
+RIGHT_NOW=$(date +"%x %r %Z" )
+TIME_STAMO="Updated $RIGHT_NOW by $title "
+$title
+$TIME_STAMO
+

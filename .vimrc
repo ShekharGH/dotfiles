@@ -3,7 +3,7 @@ execute pathogen#infect()
 set number
 
 " <c-n> to toggle nerdtree
-map <silent> <C-n> :execute 'NERDTreeToggle '<CR>
+nmap <silent> <C-n> :execute 'NERDTreeToggle '<CR>
 " nerdtree position and size
 let NERDTreeWinPos = "left"
 let NERDTreeWinSize = 30
@@ -41,3 +41,6 @@ nnoremap ; :
 nnoremap : ;
 
 nnoremap , $
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+
+"to switch b/w windows in NERDTree use ctrl shift and w 
