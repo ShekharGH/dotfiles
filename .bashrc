@@ -26,6 +26,8 @@ alias la='ls -a'
 alias a='git add -A'
 alias d='git diff'
 alias push='git push origin master'
+alias commit='git commit -m'
+alias v='vim'
 
 
 #cd ~/Work/Notes\ and\ other\ stuff/
