@@ -43,5 +43,7 @@ nnoremap : ;
 
 nnoremap , $
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
 
 "to switch b/w windows in NERDTree use ctrl shift and w 
