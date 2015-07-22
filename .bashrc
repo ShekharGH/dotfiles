@@ -28,6 +28,8 @@ alias d='git diff'
 alias push='git push origin master'
 alias commit='git commit -m'
 alias v='vim'
+alias update='sudo dnf update'
+alias i='sudo dnf install'
 
 
 #cd ~/Work/Notes\ and\ other\ stuff/
