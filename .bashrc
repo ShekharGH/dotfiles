@@ -28,6 +28,14 @@ alias d='git diff'
 alias push='git push origin master'
 alias commit='git commit -m'
 alias v='vim'
+alias update='sudo dnf update'
+
+
+alias cd2="cd ../.."
+alias cd3="cd ../../.."
+alias cd4="cd ../../../.."
+alias cd5="cd ../../../../.."
+alias ??="c && "
 
 
 #cd ~/Work/Notes\ and\ other\ stuff/
@@ -59,7 +67,7 @@ function today {
 	date +"%H:%M:%S 	%a   %d%b  20%y";
 	}
 #date +"%H_%M_%S_%a_%d%b_%y";
-
+PS1="=> "
 
 
 
