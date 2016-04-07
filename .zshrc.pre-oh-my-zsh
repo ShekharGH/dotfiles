@@ -1,23 +1,4 @@
-# .bashrc
-
-# Source global definitions
-if [ -f /etc/bashrc ]; then
-	. /etc/bashrc
-fi
-
-# Uncomment the following line if you don't like systemctl's auto-paging feature:
-# export SYSTEMD_PAGER=
-#export JAVA_HOME=/usr/java/jdk1.8.0_40/bin/java
-
-#export PATH=$PATH:/usr/java/jdk1.8.0_40/bin
-# User specific aliases and functions
-
-export NVM_DIR="/home/shekhargh/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
-xset r rate 160 220
-clear
-export PATH=$PATH:~/.bin
+alias c='clear'
 alias :q='exit'
 alias c='clear'
 alias l="ls"
@@ -28,14 +9,6 @@ alias d='git diff'
 alias push='git push origin master'
 alias commit='git commit -m'
 alias v='vim'
-alias update='sudo dnf update'
-
-
-alias cd2="cd ../.."
-alias cd3="cd ../../.."
-alias cd4="cd ../../../.."
-alias cd5="cd ../../../../.."
-alias ??="c && "
 
 
 #cd ~/Work/Notes\ and\ other\ stuff/
@@ -44,7 +17,6 @@ javascripttut="/home/shekhargh/Work/Notes and other stuff/LearnJavascript";
 mynotes="/home/shekhargh/Work/Notes and other stuff";
 work="/home/shekhargh/Work";
 myactualnotes="/home/shekhargh/Work/Notes";
-
 function gotomynotes {
 	cd
 	cd "$myactualnotes";
@@ -64,27 +36,7 @@ function gotowork {
 	}
 function today {
 	echo "Abhi time hai :: ";
-	date +"%H:%M:%S 	%a   %d%b  20%y";
+	date +"%H:%M:%S         %a   %d%b  20%y";
 	}
 #date +"%H_%M_%S_%a_%d%b_%y";
-
-PS1="bash➜ " 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+PS1="zsh=>"
