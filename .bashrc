@@ -29,6 +29,7 @@ alias push='git push origin master'
 alias commit='git commit -m'
 alias v='vim'
 alias update='sudo dnf update'
+alias spnd="sudo pm-suspend"
 
 
 alias cd2="cd ../.."

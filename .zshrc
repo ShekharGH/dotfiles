@@ -73,6 +73,7 @@ alias push='git push origin master'
 alias commit='git commit -m'
 alias v='vim'
 alias cnode="clear && node ";
+alias spnd="sudo pm-suspend"
 
 
 #cd ~/Work/Notes\ and\ other\ stuff/
