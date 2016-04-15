@@ -29,6 +29,7 @@ alias push='git push origin master'
 alias commit='git commit -m'
 alias v='vim'
 alias update='sudo dnf update'
+<<<<<<< HEAD
 alias spnd="sudo pm-suspend"
 
 
@@ -37,6 +38,9 @@ alias cd3="cd ../../.."
 alias cd4="cd ../../../.."
 alias cd5="cd ../../../../.."
 alias ??="c && "
+=======
+alias i='sudo dnf install'
+>>>>>>> ssup
 
 
 #cd ~/Work/Notes\ and\ other\ stuff/

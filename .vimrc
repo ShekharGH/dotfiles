@@ -4,6 +4,7 @@ set number
 
 " <c-n> to toggle nerdtree
 nmap <silent> <C-n> :execute 'NERDTreeToggle '<CR>
+map <C-n> :NERDTree<CR>
 " nerdtree position and size
 let NERDTreeWinPos = "left"
 let NERDTreeWinSize = 30
@@ -22,7 +23,7 @@ ino  <left> <Nop>
 ino <right> <Nop>
 ino <up> <Nop>
 
-nmap <C-Tab> :tabnext <CR>
+nmap <leader><Tab> :tabnext<CR>
 nmap <C-S-Tab> :tabprevious<CR>
 imap <leader>' ''<ESC>i
 imap <leader>" ""<ESC>i
@@ -43,6 +44,5 @@ nnoremap : ;
 nnoremap , $
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
-
 
 "to switch b/w windows in NERDTree use ctrl shift and w 
