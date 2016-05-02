@@ -5,7 +5,12 @@
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+#ZSH_THEME="robbyrussell"
+#ZSH_THEME="murilasso"
+ZSH_THEME="random"
+
+
+
 #ZSH_THEME="agnoster"
 
 # Uncomment the following line to use case-sensitive completion.
@@ -53,7 +58,7 @@ ZSH_THEME="robbyrussell"
 
 
 #plugins=(git)
-
+plugins=(java node jquery)
 # User configuration
 
   export PATH="/home/shekhargh/.nvm/v0.10.32/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/shekhargh/.bin:/home/shekhargh/.local/bin:/home/shekhargh/bin:/home/shekhargh/.bin"
@@ -74,14 +79,20 @@ alias commit='git commit -m'
 alias v='vim'
 alias cnode="clear && node ";
 alias spnd="sudo pm-suspend"
+alias cc='c && '
 
 
 #cd ~/Work/Notes\ and\ other\ stuff/
 mysite="/home/shekhargh/Work/Notes and other stuff/GithubPage/ShekharGH.github.io";
 javascripttut="/home/shekhargh/Work/Notes and other stuff/LearnJavascript";
+javaa="/home/shekhargh/Work/Notes and other stuff/LearnJava"
 mynotes="/home/shekhargh/Work/Notes and other stuff";
 work="/home/shekhargh/Work";
 myactualnotes="/home/shekhargh/Work/Notes";
+function gotojava {
+	cd 
+	cd "$javaa";
+	}
 function gotomynotes {
 	cd
 	cd "$myactualnotes";
