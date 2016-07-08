@@ -79,8 +79,11 @@ alias d='git diff'
 alias push='git push origin master'
 alias commit='git commit -m'
 alias v='vim'
+alias update='sudo dnf update'
 alias cnode="clear && node ";
-alias spnd="sudo pm-suspend"
+alias spnd="sudo pm-suspend";
+alias cjavac='c && javac '
+alias cdtoa="cd ~/Android/Sdk/platform-tools/";
 
 
 #cd ~/Work/Notes\ and\ other\ stuff/
@@ -136,3 +139,6 @@ function today {
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export NVM_DIR="/home/shekhargh/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

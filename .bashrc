@@ -14,6 +14,8 @@ fi
 
 export NVM_DIR="/home/shekhargh/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+#export NVM_DIR="/home/shekhargh/nodeNewVs"
+#[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  #This loads nvm
 
 xset r rate 160 220
 clear
